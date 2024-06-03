@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: LanguageTable_tr
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: tr
+  m_SharedData: {fileID: 11400000, guid: 3978250482f52374d8b76a0dae4f25d3, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 611535732736
+    m_Localized: Oynamak
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2781110779904
+    m_Localized: "D\xFCzeyler"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3905544962048
+    m_Localized: Ayarlar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4855370268672
+    m_Localized: "M\xFCzik"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5017010356224
+    m_Localized: Ses
+    m_Metadata:
+      m_Items: []
+  - m_Id: 270312828485632
+    m_Localized: "oynamak i\xE7in kaz\u0131n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 270683437187072
+    m_Localized: "Sen Kazand\u0131n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 271226821853184
+    m_Localized: "Ye\u015Fil su almay\u0131n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 271479667081216
+    m_Localized: "boru i\xE7inde"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279850768056320
+    m_Localized: "S\xFCrd\xFCrmek"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 280220055552000
+    m_Localized: "Tekrar ba\u015Flat"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 280373772599296
+    m_Localized: "Ayr\u0131l"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 280732029075456
+    m_Localized: Emin misin?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 280968231305216
+    m_Localized: Evet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281120111247360
+    m_Localized: "Hay\u0131r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281397262467072
+    m_Localized: "Durakl\u0131yordu"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 754305529200640
+    m_Localized: kaybedersin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 756351527469056
+    m_Localized: "Bu su\nye\u015File kar\u015F\u0131"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2516783875407872
+    m_Localized: "Chibi'ye Yard\u0131m Et"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []
