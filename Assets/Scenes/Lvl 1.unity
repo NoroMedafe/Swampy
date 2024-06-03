@@ -535,7 +535,7 @@ MonoBehaviour:
   m_LookAt: {fileID: 666955691}
   m_Follow: {fileID: 666955691}
   m_Lens:
-    FieldOfView: 60
+    FieldOfView: 84
     OrthographicSize: 5
     NearClipPlane: 0.3
     FarClipPlane: 1000
@@ -559,7 +559,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 160346060}
-  m_LocalRotation: {x: -0.17324048, y: -0.043821264, z: -0.0077160457, w: 0.98387396}
+  m_LocalRotation: {x: -0.03921623, y: -0.04446111, z: -0.001746672, w: 0.9982396}
   m_LocalPosition: {x: 0.80399966, y: 9.492001, z: -3.9230006}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -4640,6 +4640,17 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 986763383}
   m_Mesh: {fileID: 4419384370091214701, guid: b666a6d1d77e5574f961c82471a4cf15, type: 3}
+--- !u!114 &1003191448 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6510156969376747553, guid: 45e459cb1ad6e274d90bc65485850aea, type: 3}
+  m_PrefabInstance: {fileID: 1531919761861978219}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1013913338
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6722,8 +6733,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3aa6bb5777dec2b429e5f1395bd9402c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _text: {fileID: 0}
-  _endMenu: {fileID: 0}
+  _text: {fileID: 1003191448}
+  _endMenu: {fileID: 1531919761861978224}
 --- !u!58 &1542786837
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -6739,7 +6750,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: -0.13172242, y: 1.1473972}
   serializedVersion: 2
-  m_Radius: 3.36
+  m_Radius: 4.6
 --- !u!1 &1552386639
 GameObject:
   m_ObjectHideFlags: 0
@@ -7568,7 +7579,7 @@ MonoBehaviour:
   m_HorizontalDamping: 0.5
   m_VerticalDamping: 0.5
   m_ScreenX: 0.5
-  m_ScreenY: 0.52
+  m_ScreenY: 0.36
   m_DeadZoneWidth: 0
   m_DeadZoneHeight: 0
   m_SoftZoneWidth: 0.8
@@ -9847,19 +9858,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2255438891236933490, guid: 9b8447c9b6e57b54e8355ba0735ee5cf, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.98387396
+      value: 0.9982396
       objectReference: {fileID: 0}
     - target: {fileID: 2255438891236933490, guid: 9b8447c9b6e57b54e8355ba0735ee5cf, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.17324048
+      value: -0.03921623
       objectReference: {fileID: 0}
     - target: {fileID: 2255438891236933490, guid: 9b8447c9b6e57b54e8355ba0735ee5cf, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.043821264
+      value: -0.04446111
       objectReference: {fileID: 0}
     - target: {fileID: 2255438891236933490, guid: 9b8447c9b6e57b54e8355ba0735ee5cf, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.0077160457
+      value: -0.001746672
       objectReference: {fileID: 0}
     - target: {fileID: 2255438891236933490, guid: 9b8447c9b6e57b54e8355ba0735ee5cf, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -9872,6 +9883,14 @@ PrefabInstance:
     - target: {fileID: 2255438891236933490, guid: 9b8447c9b6e57b54e8355ba0735ee5cf, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2255438891236933491, guid: 9b8447c9b6e57b54e8355ba0735ee5cf, type: 3}
+      propertyPath: field of view
+      value: 84
+      objectReference: {fileID: 0}
+    - target: {fileID: 2255438891236933491, guid: 9b8447c9b6e57b54e8355ba0735ee5cf, type: 3}
+      propertyPath: far clip plane
+      value: 1000
       objectReference: {fileID: 0}
     - target: {fileID: 2255438891236933501, guid: 9b8447c9b6e57b54e8355ba0735ee5cf, type: 3}
       propertyPath: m_Enabled

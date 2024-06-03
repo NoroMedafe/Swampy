@@ -20,19 +20,12 @@ public class PlayerCheker : MonoBehaviour
     {
         circleCollider = GetComponent<CircleCollider2D>();
     }
-
-    private  void Update()
+    private void Update()
     {
-        if (_countWater <5)
-        {
-            if (coroutine == null)
-            {
-                coroutine = StartCoroutine(Timer());
-            }
-        }
+        Debug.Log(_countWater);
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerStay2D(Collider2D collision)
     {
         if (collision.GetComponent<Water>())
         {
@@ -45,6 +38,13 @@ public class PlayerCheker : MonoBehaviour
         if (collision.GetComponent<Water>())
         {
             _countWater--;
+            if (_countWater < 5)
+            {
+                if (coroutine == null)
+                {
+                    coroutine = StartCoroutine(Timer());
+                }
+            }
         }
     }
     private IEnumerator Timer()
